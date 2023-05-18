@@ -1,3 +1,30 @@
 #show-sketch{
     float: right;
 }
+body{
+    background-color:lightsalmon;
+}
+h1{
+    color:darkgreen;
+    background-color: azure;
+}
+
+canvas{
+    border: 6px solid yellowgreen;
+    border-radius: 20px;
+    margin-top: 120px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    from{box-shadow: 1px 1px 55px silver; }
+    to{box-shadow: 1px 1px 55px greenyellow;}
+}
+ 
+p{
+    padding-top: 15px;
+    font-size: 20px;
+}
+ 
